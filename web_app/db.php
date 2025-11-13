@@ -4,7 +4,7 @@
 $host = "localhost";
 $user = "root"; 
 $pass = "";     
-$db   = "bd_crud_php"; 
+$db   = "bd_eventos"; 
 
 $conn = new mysqli($host, $user, $pass, $db);
 
