@@ -34,6 +34,17 @@ $result = $stmt->get_result();
 <body>
     <div class="container">
         <header>
+            <?php
+            if (isset($_GET['msg'])) {
+                if ($_GET['msg'] == 'sucesso') {
+                    echo '<p class="mensagem-sucesso">✅ Sua reserva foi feita com sucesso!</p>';
+                } elseif ($_GET['msg'] == 'ja_reservado') {
+                    echo '<p class="mensagem-aviso">⚠️ Você já tem uma reserva ativa para este evento.</p>';
+                }
+            }
+            ?>
+
+
             <h1>🎟️ Minhas Reservas</h1>
             <a href="home.php" class="voltar">← Voltar para Home</a>
         </header>
