@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #55f3e1, #62d6dc);
+}
+
+/* Container principal */
+.home-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Título */
+.home-container h1 {
+    color: #118787;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subtitulo {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: block;
+    background: #118787;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background: #007adf;
+    transform: scale(1.03);
+}
+
+/* Botão sair */
+.btn.sair {
+    background: #e14b4b;
+}
+
+.btn.sair:hover {
+    background: #c73333;
+}
+
+/* Botão do admin */
+.btn.admin {
+    background: #00a86b;
+}
+
+.btn.admin:hover {
+    background: #008f5b;
+}
+

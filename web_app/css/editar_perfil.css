@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #55f3e1, #62d6dc);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    color: #118787;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #118787;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.voltar:hover {
+    color: #007adf;
+}
+
+/* Formulário */
+.form-perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-perfil label {
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.form-perfil input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s;
+}
+
+.form-perfil input:focus {
+    border-color: #118787;
+    outline: none;
+}
+
+/* Botão */
+.btn-salvar {
+    background: #118787;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn-salvar:hover {
+    background: #0e6d6d;
+}
+
+/* Mensagem de sucesso */
+.mensagem-sucesso {
+    background: #c7f7e8;
+    color: #0a645b;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

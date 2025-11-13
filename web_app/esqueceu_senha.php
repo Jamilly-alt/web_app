@@ -59,9 +59,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <div class="input-group">
-            <label for="nova_senha">Nova Senha</label>
+            <label for="nova_senha">Senha atual</label>
             <input type="password" id="nova_senha" name="nova_senha" placeholder="Digite a nova senha" required>
         </div>
+
+        <div class="input-group">
+            <label for="nova_senha">Nova senha</label>
+            <input type="password" id="nova_senha" name="nova_senha" placeholder="Digite a nova senha" required>
+        </div>
+
+        <div class="input-group">
+            <label for="nova_senha">Confirmar senha</label>
+            <input type="password" id="nova_senha" name="nova_senha" placeholder="Digite a nova senha" required>
+        </div>
+
 
         <button type="submit">Redefinir Senha</button>
     </form>

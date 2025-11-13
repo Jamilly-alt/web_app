@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             // Verifica senha
             if (password_verify($senha, $user['senha'])) {
                 // Zera contador de tentativas e incrementa quant_acesso
-                $conn->query("UPDATE USUARIO SET quant_acesso = 0 WHERE login='{$login}'");
+                $conn->query("UPDATE USUARIO SET quant_acesso = 0+1 WHERE login='{$login}'");
 
                 $_SESSION['login'] = $user['login'];
                 $_SESSION['nome'] = $user['nome'];
@@ -74,7 +74,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             <a href="esqueceu_senha.php">Esqueceu a senha?</a>
             <br><br>
-
             <button type="submit">Entrar</button>
         </form>
 
