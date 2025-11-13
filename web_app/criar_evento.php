@@ -57,7 +57,7 @@ $stmt->bind_param("sssssis", $nome, $descricao, $local, $data, $hora, $capacidad
     <div class="container">
         <header>
             <h1>🎭 Criar Evento Cultural</h1>
-            <a href="eventos.php" class="voltar">← Voltar</a>
+            <a href="home.php" class="voltar">← Voltar</a>
         </header>
 
         <?php if (isset($mensagem)): ?>
