@@ -3,82 +3,110 @@ Projeto: Web app
 - Jamilly Ramos de brito
 - 3°DS (Desenvolvimento de Sistemas)
 - EEEMI Prof. Joaquim De Moura Candelária
-Descrição do projeto:
-Este é um Web App de Reservas de Eventos Culturais, que começou como um simples sistema de login com segurança reforçada, mas cresceu e hoje faz muito mais.
-Agora os usuários podem ver eventos culturais, conferir localização no mapa, saber o clima no dia e fazer reservas. O administrador tem controle total sobre os eventos.
-Tudo foi feito com HTML, CSS, JavaScript, PHP e MySQL, além das APIs do Google Maps e OpenWeather.
+Sobre o Projeto
 
-Funcionalidades de Login:
--Verificação de usuário e senha
--Bloqueio após 3 tentativas erradas
--Contador de acessos
--Aviso de primeiro acesso
--Cadastro de usuários direto no sistema
+Este projeto é um Web App para reserva de eventos culturais. Ele começou como um sistema de login com algumas funções extras de segurança e evoluiu para um sistema completo onde usuários podem visualizar eventos, consultar a localização no mapa, verificar o clima no dia do evento e realizar reservas. O administrador tem acesso completo ao gerenciamento dos eventos e dos usuários.
 
-Perfis do Sistema:
+Funcionalidades de Login
+
+Verificação de usuário e senha
+
+Bloqueio automático após 3 tentativas erradas
+
+Contador de acessos por usuário
+
+Identificação de primeiro acesso
+
+Cadastro de novos usuários diretamente no sistema
+
+Perfis do Sistema
 Administrador
--O administrador tem acesso a funções de gerenciamento. Ele pode:
--Criar novos eventos culturais
--Informar endereço, data, horário e descrição
--Editar ou excluir eventos
--Visualizar reservas feitas pelos usuários
--Liberar ou bloquear contas de usuários
--Cadastrar novos usuários se necessário
 
-Usuário Comum:
--O usuário comum utiliza o sistema para:
--Fazer login e acessar sua área
--Ver os eventos culturais disponíveis
--Ver a localização do evento pelo mapa (Google Maps)
--Ver a previsão do clima para o dia do evento
--Reservar um evento
--Acessar a página Minhas Reservas
--Ver suas reservas com todos os detalhes, incluindo mapa e clima
+O administrador tem acesso às ferramentas de gerenciamento e pode:
 
-Funcionalidades do Sistema de Eventos:
+Criar novos eventos culturais
 
+Informar endereço, data, horário e descrição dos eventos
+
+Editar ou excluir eventos
+
+Visualizar reservas feitas pelos usuários
+
+Cadastrar novos usuários
+
+Bloquear ou liberar contas
+
+Usuário Comum
+
+O usuário comum pode:
+
+Fazer login e acessar sua área
+
+Visualizar eventos disponíveis
+
+Consultar a localização do evento pelo mapa (Google Maps)
+
+Ver a previsão do clima para a data do evento
+
+Fazer reservas
+
+Acessar a página “Minhas Reservas” com todos os detalhes
+
+Funcionalidades do Sistema de Eventos
 Eventos Culturais
--Lista completa de eventos cadastrados
--Cada evento mostra:
--Nome
--Data e horário
--Descrição
--Endereço
--Mapa do local
--Clima do dia do evento
 
-API de Clima (OpenWeather):
-Para cada evento, o sistema mostra:
--Temperatura prevista
--Condição do tempo
--Ícone do clima
--Sensação térmica (opcional)
+A listagem de eventos mostra:
 
-API de Mapa (Google Maps):
-Sempre que o administrador cadastra um endereço, o sistema exibe:
--Mapa interativo
--Localização real do evento
+Nome do evento
 
-Tecnologias Usadas:
+Data e horário
+
+Descrição
+
+Endereço
+
+Mapa da localização
+
+Clima previsto para o dia do evento
+
+API de Clima (OpenWeather)
+
+Para cada evento, o sistema exibe:
+
+Temperatura prevista
+
+Condição do tempo
+
+Ícone representando o clima
+
+Outras informações opcionais como sensação térmica
+
+API de Mapa (Google Maps)
+
+Sempre que o administrador cadastra um endereço, o sistema mostra:
+
+Mapa interativo
+
+Localização exata do evento
+
+Tecnologias Utilizadas
 Front-end
--HTML5
--CSS3
--JavaScript
--Bootstrap
 
-Back-end
--PHP
--MySQL
--APIs
--Google Maps
--OpenWeather
+HTML5
+
+CSS3
+
+JavaScript
+
+Bootstrap
+
 Back-end
 
 PHP
 
 MySQL
 
-APIs
+APIs Integradas
 
 Google Maps
 
