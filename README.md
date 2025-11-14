@@ -14,6 +14,7 @@ Funcionalidades de Login:
 - Cadastro de novos usuários diretamente no sistema
 
 Perfis do Sistema:
+
 Administrador
 - O administrador tem acesso às ferramentas de gerenciamento e pode:
 - Criar novos eventos culturais
@@ -26,75 +27,49 @@ Administrador
 Usuário Comum:
 
 O usuário comum pode:
-
-Fazer login e acessar sua área
-
-Visualizar eventos disponíveis
-
-Consultar a localização do evento pelo mapa (Google Maps)
-
-Ver a previsão do clima para a data do evento
-
-Fazer reservas
-
-Acessar a página “Minhas Reservas” com todos os detalhes
+- Fazer login e acessar sua área
+- Visualizar eventos disponíveis
+- Consultar a localização do evento pelo mapa (Google Maps)
+- Ver a previsão do clima para a data do evento
+- Fazer reservas
+- Acessar a página “Minhas Reservas” com todos os detalhes
 
 Funcionalidades do Sistema de Eventos
+
 Eventos Culturais
 
 A listagem de eventos mostra:
-
-Nome do evento
-
-Data e horário
-
-Descrição
-
-Endereço
-
-Mapa da localização
-
-Clima previsto para o dia do evento
-
-API de Clima (OpenWeather)
+- Nome do evento
+- Data e horário
+- Descrição
+- Endereço
+- Mapa da localização
+- Clima previsto para o dia do evento
+- API de Clima (OpenWeather)
 
 Para cada evento, o sistema exibe:
-
-Temperatura prevista
-
-Condição do tempo
-
-Ícone representando o clima
-
-Outras informações opcionais como sensação térmica
-
-API de Mapa (Google Maps)
+- Temperatura prevista
+- Condição do tempo
+- Ícone representando o clima
+- Outras informações opcionais como sensação térmica
+- API de Mapa (Google Maps)
 
 Sempre que o administrador cadastra um endereço, o sistema mostra:
+- Mapa interativo
+- Localização exata do evento
 
-Mapa interativo
+Tecnologias Utilizadas:
 
-Localização exata do evento
-
-Tecnologias Utilizadas
 Front-end
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Bootstrap
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
 
 Back-end
 
-PHP
-
-MySQL
-
-APIs Integradas
-
-Google Maps
-
-OpenWeather
+- PHP
+- MySQL
+- APIs Integradas
+- Google Maps
+- OpenWeather
