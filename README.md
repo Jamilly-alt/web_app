@@ -72,3 +72,14 @@ Back-end
 -APIs
 -Google Maps
 -OpenWeather
+Back-end
+
+PHP
+
+MySQL
+
+APIs
+
+Google Maps
+
+OpenWeather
