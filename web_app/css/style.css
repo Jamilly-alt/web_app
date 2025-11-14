@@ -78,3 +78,22 @@ button:hover {
     color: red;
     font-size: 14px;
 }
+.senha-container {
+    position: relative;
+}
+
+.toggle-senha {
+    position: absolute;
+    right: 12px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.toggle-senha svg {
+    transition: 0.2s ease-in-out;
+}
+
+.toggle-senha:hover svg {
+    fill: #333;
+}
+
