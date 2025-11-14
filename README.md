@@ -4,39 +4,26 @@ Projeto: Web app
 - 3°DS (Desenvolvimento de Sistemas)
 - EEEMI Prof. Joaquim De Moura Candelária
 Sobre o Projeto
-
 Este projeto é um Web App para reserva de eventos culturais. Ele começou como um sistema de login com algumas funções extras de segurança e evoluiu para um sistema completo onde usuários podem visualizar eventos, consultar a localização no mapa, verificar o clima no dia do evento e realizar reservas. O administrador tem acesso completo ao gerenciamento dos eventos e dos usuários.
 
-Funcionalidades de Login
+Funcionalidades de Login:
+- Verificação de usuário e senha
+- Bloqueio automático após 3 tentativas erradas
+- Contador de acessos por usuário
+- Identificação de primeiro acesso
+- Cadastro de novos usuários diretamente no sistema
 
-Verificação de usuário e senha
-
-Bloqueio automático após 3 tentativas erradas
-
-Contador de acessos por usuário
-
-Identificação de primeiro acesso
-
-Cadastro de novos usuários diretamente no sistema
-
-Perfis do Sistema
+Perfis do Sistema:
 Administrador
+- O administrador tem acesso às ferramentas de gerenciamento e pode:
+- Criar novos eventos culturais
+- Informar endereço, data, horário e descrição dos eventos
+- Editar ou excluir eventos
+- Visualizar reservas feitas pelos usuários
+- Cadastrar novos usuários
+- Bloquear ou liberar contas
 
-O administrador tem acesso às ferramentas de gerenciamento e pode:
-
-Criar novos eventos culturais
-
-Informar endereço, data, horário e descrição dos eventos
-
-Editar ou excluir eventos
-
-Visualizar reservas feitas pelos usuários
-
-Cadastrar novos usuários
-
-Bloquear ou liberar contas
-
-Usuário Comum
+Usuário Comum:
 
 O usuário comum pode:
 
